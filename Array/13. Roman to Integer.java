@@ -23,7 +23,7 @@ public class 13. Roman to Integer {
                 sum += currentValue;
             }
 
-            prevValue = currentValue; // Update prevValue for next iteration
+            prevValue = currentValue; // Update prevValue for next iterations
         }
 
         return sum;
